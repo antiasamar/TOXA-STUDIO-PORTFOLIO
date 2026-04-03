@@ -11,10 +11,15 @@ body {
     font-family: "Roboto";
     color: #F5F5F5;
 }
+
+.wrapper {
+    padding: 0px 40px 0px 40px;
+}
+
 /* ESTILOS DE TITULAR */
 
 h1 {
-    font-size: 260px;
+    font-size: 276px;
     font-weight: 900;
     line-height: 130px;
 }
@@ -76,21 +81,20 @@ header {
 
 .title-home > span {
     font-family: "Sloop";
-    font-size: 260px;
+    font-size: 278px;
     font-weight: bold;
-    margin-left: -38px;
+    margin-left: -40px;
     padding-right: 36px;
     flex-wrap: wrap;
 }
 
 header > h2 {
     align-self: flex-end;
-    padding-right: 24px;
 }
 
 .presentation {
     display: flex;
-    column-gap: 200pxpx;
+    column-gap: 200px;
     padding-top: 80px;
 }
 
@@ -103,9 +107,14 @@ header > h2 {
     flex-direction: column;
     padding-top: 550px;
     padding-left: 100px;
-    gap: 200px;
+    gap: 100px;
+}
+
+.presentation > div:last-child > p {
+    margin-right: 40px;
 }
 
 .presentation > div:last-child > img {
-    padding: 120px;
+    padding: 200px;
 }
+
