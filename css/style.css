@@ -110,43 +110,14 @@ header > h2 {
     align-self: flex-end;
 }
 
-.presentation {
+header > div {
     display: flex;
-    column-gap: 200px;
     padding-top: 80px;
+    gap: 160px;
 }
 
-.presentation > div:first-child > img {
-    padding-left: 80px;
-    flex: 1;
-}
-
-.presentation > div:last-child {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+header > div > p {
     padding-top: 550px;
-    padding-left: 100px;
-    gap: 50px;
-    flex: 1;
-}
-
-.presentation > div:last-child > p {
-    margin-right: 40px;
-}
-
-.presentation > div:last-child > p > span {
-    font-family: "Sloop";
-    font-size: 50px;
-    font-weight: 200;
-    text-transform: capitalize;
-    line-height: 0%;
-    letter-spacing: 3px;
-}
-
-.presentation > div:last-child > img {
-    padding: 100px  100px  200px  200px;
-    
 }
 
 /* SELECTED PROJECTS  */
@@ -160,6 +131,7 @@ header > h2 {
     display: flex;
     justify-content: space-between;
     align-items: end;
+    flex-wrap: wrap;
 }
 
 .pro-column-slim > ul {
@@ -172,6 +144,7 @@ header > h2 {
     display: flex;
     gap: 20px;
     padding-bottom: 24px;
+    flex-wrap: wrap;
 }
 
 .pro-row > div > h4 {
