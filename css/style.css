@@ -83,8 +83,8 @@ header {
     font-family: "Sloop";
     font-size: 278px;
     font-weight: bold;
-    margin-left: -40px;
-    padding-right: 36px;
+    margin-left: -48px;
+    padding-right: 40px;
     flex-wrap: wrap;
 }
 
@@ -100,21 +100,34 @@ header > h2 {
 
 .presentation > div:first-child > img {
     padding-left: 80px;
+    flex: 1;
 }
 
 .presentation > div:last-child {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 550px;
     padding-left: 100px;
-    gap: 100px;
+    gap: 50px;
+    flex: 1;
 }
 
 .presentation > div:last-child > p {
     margin-right: 40px;
 }
 
+.presentation > div:last-child > p > span {
+    font-family: "Sloop";
+    font-size: 50px;
+    font-weight: 200;
+    text-transform: capitalize;
+    line-height: 0%;
+    letter-spacing: 3px;
+}
+
 .presentation > div:last-child > img {
-    padding: 200px;
+    padding: 100px  100px  200px  200px;
+    
 }
 
