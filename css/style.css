@@ -29,11 +29,29 @@ h2 {
     font-weight: 200;
 }
 
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 p {
     font-size: 24px;
     font-weight: 100;
     text-transform: uppercase;
     text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+.section-title {
+    border-bottom: 1px solid #F5F5F5; 
 }
 
 /* MENÚ  */
@@ -131,3 +149,45 @@ header > h2 {
     
 }
 
+/* SELECTED PROJECTS  */
+
+#selected-projects > .section-title {
+    margin-left: 620px;
+}
+
+#selected-projects > div{ 
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.pro-column-slim > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.pro-column-wide > :first-child {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 24px;
+}
+
+.pro-row > div > h4 {
+    border-top: 1px solid #F5F5F5;
+    padding-top: 12px;
+}
+
+.pro-row > div > img {
+    padding-bottom: 12px;
+}
+
+.pro-row > h4 { 
+    border-top: 1px solid #F5F5F5;
+    padding-top: 12px;
+}
+
+.pro-row > img {
+    padding-bottom: 12px;
+}
