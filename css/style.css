@@ -103,7 +103,7 @@ header {
     font-weight: bold;
     margin-left: -48px;
     padding-right: 40px;
-    flex-wrap: wrap;
+   
 }
 
 header > h2 {
@@ -116,14 +116,26 @@ header > div {
     gap: 160px;
 }
 
-header > div > p {
+header > div > div > p {
     padding-top: 550px;
 }
 
+/* ORNAMENTO  */
+
+.ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 160px;
+  
+}
+
+
 /* SELECTED PROJECTS  */
 
+
 #selected-projects > .section-title {
-    margin-left: 620px;
+    margin-left: 400px;
 }
 
 #selected-projects > div{ 
@@ -133,6 +145,7 @@ header > div > p {
     align-items: end;
     flex-wrap: wrap;
 }
+
 
 .pro-column-slim > ul {
     display: flex;
@@ -163,4 +176,60 @@ header > div > p {
 
 .pro-row > img {
     padding-bottom: 12px;
+}
+
+/* FRASE */
+.quote {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 400px;
+}
+
+.quote > h5 {
+    font-family: "Sloop";
+    font-size: 120px;
+    font-weight: bold;
+}
+
+/* BEHIND TOXA STUDIO */
+
+/* AJUSTES O ABOUT
+#previewabout > h1 > span {
+    font-family: "Sloop";
+    font-size: 278px;
+    font-weight: bold;
+    margin-left: -10px;
+    padding-right: 60px;
+} */
+
+#previewabout {
+    padding-bottom: 300px;
+}
+
+#previewabout > h3 {
+    text-align: right;
+    margin-right: 400px;
+}
+
+#previewabout > div {
+    display: flex;
+    padding-top: 36px;
+    gap: 160px;
+    align-self: flex-end;
+}
+
+#previewabout > div > div > p {
+    padding-top: 450px;
+    padding-bottom: 80px; }
+
+#previewabout > div > div > img {
+   height: 700px;}
+
+.pre-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
