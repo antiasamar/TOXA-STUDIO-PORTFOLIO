@@ -97,7 +97,7 @@ transition: 0.3s;
     font-weight: bold;
 }
 
-/* HOME  */
+/* HOME---------------------------------------------------------------- */
 
 /* CABECERA */
 
@@ -154,7 +154,7 @@ header > h2 {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 
@@ -270,7 +270,7 @@ footer > div > div > a {
     text-align: center;
 }
 
-/* ABOUT  */
+/* ABOUT--------------------------------------------------------------- */
 
 /* CABEDERA */
 
@@ -284,7 +284,7 @@ footer > div > div > a {
 
 .presentation-about {
     display: flex;
-    padding-left: 750px;
+    padding-left: 40%;
     padding-bottom: 300px;
     justify-content: left;
     flex-direction: column;
