@@ -54,6 +54,15 @@ ul {
     border-bottom: 1px solid #F5F5F5; 
 }
 
+.p-acento {
+    font-family: "Sloop";
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 0;
+    letter-spacing: 3px;
+}
+
 /* MENÚ  */
 
 nav {
@@ -88,13 +97,15 @@ transition: 0.3s;
     font-weight: bold;
 }
 
+/* HOME  */
+
 /* CABECERA */
 
 header {
     padding: 140px 40px 40px 40px;
    display: flex;
    flex-direction: column;
-   align-items: center;
+   align-items: left;
 }
 
 .title-home > span {
@@ -110,13 +121,13 @@ header > h2 {
     align-self: flex-end;
 }
 
-header > div {
+.presentation {
     display: flex;
     padding-top: 80px;
     gap: 160px;
 }
 
-header > div > div > p {
+.presentation> div > div > p {
     padding-top: 550px;
 }
 
@@ -139,7 +150,7 @@ header > div > div > p {
 }
 
 #selected-projects > div{ 
-    padding-top: 80px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -236,6 +247,7 @@ padding: 400px;
 
 }
 
+
 /* CONTACT  */
 
 footer > h1 > span {
@@ -266,3 +278,38 @@ footer > div > div {
 footer > div > div > a {
     text-align: center;
 }
+
+/* ABOUT  */
+
+/* CABEDERA */
+
+.title-about > h1 > span {
+    font-family: "Sloop";
+    font-size: 278px;
+    font-weight: bold;
+    margin-left: -10px;
+    padding-right: 58px;
+}
+
+.presentation-about {
+    display: flex;
+    padding-left: 750px;
+    padding-bottom: 300px;
+    justify-content: left;
+    flex-direction: column;
+    padding-top: 150px;
+    gap: 150px;
+}
+
+.title-background  > h1 {
+    font-size: 128px ;
+}
+
+.title-background > h1 > span {
+     font-family: "Sloop";
+    font-size: 130px;
+    font-weight: bold;
+    margin-left: 3px;
+    padding-right: 25px;
+}
+
