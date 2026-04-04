@@ -117,7 +117,7 @@ header {
    
 }
 
-header > h2 {
+.sub-home {
     align-self: flex-end;
 }
 
@@ -370,4 +370,145 @@ footer > div > div > a {
    padding: 15% 40px;
    
 }
+
+/* PROJECTS-------------------------------- */
    
+/* CABECERA */
+
+.header-projects{
+     padding: 16px 40px 12px 40px;
+display: flex;
+justify-content: space-between;
+align-items: left;
+position: absolute;
+top: 11%;
+left: 0%;
+width: 100%;
+background-color: #0A0A0A;
+z-index: 998;
+border-bottom: 1px solid #F5F5F5 ;
+justify-content: left;
+}
+
+.title-projects > h1 > span {
+    font-family: "Sloop";
+    font-size: 278px;
+    font-weight: bold;
+    margin-left: 5px;
+    padding-right: 5px;
+}  
+.title-projects > h1 {
+    padding-bottom: 24px;
+}
+
+.header-projects> h2 {
+    border-bottom: 1px solid #F5F5F5;
+    width: 100%;
+    padding: 24px 40px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    position: absolute;
+    top: 224px;
+    left: 0%;
+    width: 100%;
+    z-index: 997;
+}
+
+/* PROJECTS GALLERY */
+
+.projects-gallery {
+     width: 100%;
+    padding: 0px 40px;
+    display: flex;
+    position: absolute;
+    top: 420px;
+    left: 0%;
+    width: 100%;
+    z-index: 996;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.row-pro {
+display: flex;
+gap: 40px;
+border-bottom: 1px solid#F5F5F5;
+padding-bottom: 40px;
+padding-top: 40px;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.row-pro > div {
+    flex: 1;
+}
+
+.row-pro > div:last-child{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+
+.category {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category > p {
+font-size: 16px;
+padding: 8px 15px;
+border: 1px solid #F5F5F5;
+border-radius: 20px;
+}
+
+.text-row > p {
+    text-align: left;
+    padding-top: 24px;
+}
+
+.column-pro {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.col-pro {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+/* .category-col {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.category-col {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;}
+
+.category-col > p {
+font-size: 16px;
+padding: 8px 15px;
+border: 1px solid #F5F5F5;
+border-radius: 20px;
+justify-content: space-between;
+}
+
+/* .category-col {
+    display: flex;
+    gap: 610px;
+} */
+
+.col-pro > div > img {
+    width: 100%;
+    height: auto;
+}
