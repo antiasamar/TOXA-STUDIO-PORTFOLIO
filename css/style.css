@@ -127,7 +127,7 @@ header > h2 {
     gap: 160px;
 }
 
-.presentation> div > div > p {
+.presentation > div:last-child> p {
     padding-top: 550px;
 }
 
@@ -176,7 +176,7 @@ header > h2 {
     padding-top: 12px;
 }
 
-.pro-row > div > img {
+.pro-row > div > a {
     padding-bottom: 12px;
 }
 
@@ -185,7 +185,7 @@ header > h2 {
     padding-top: 12px;
 }
 
-.pro-row > img {
+.pro-row > a > img{
     padding-bottom: 12px;
 }
 
@@ -205,15 +205,6 @@ padding: 400px;
 }
 
 /* BEHIND TOXA STUDIO */
-
-/* AJUSTES O ABOUT
-#previewabout > h1 > span {
-    font-family: "Sloop";
-    font-size: 278px;
-    font-weight: bold;
-    margin-left: -10px;
-    padding-right: 60px;
-} */
 
 #previewabout {
     padding-bottom: 300px;
@@ -242,7 +233,7 @@ padding: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 400PX;
+    padding-right: 10%;
     align-self: flex-end;
 
 }
@@ -301,6 +292,8 @@ footer > div > div > a {
     gap: 150px;
 }
 
+/* BACKGROUND  */
+
 .title-background  > h1 {
     font-size: 128px ;
 }
@@ -313,3 +306,68 @@ footer > div > div > a {
     padding-right: 25px;
 }
 
+#section-background {
+    padding-bottom: 300px;
+}
+
+.title-background {
+    padding-bottom: 200px;
+}
+
+.info-about {
+    padding-left: 20%;
+}
+
+.info-about> div > p {
+    padding-top: 16px;
+    margin-left: 40%;
+}
+
+.info-about> div > h4 {
+    padding-top: 24px;
+    margin-left: 40%;
+}
+
+.info-about> div > img {
+    padding-top: 24px;
+    margin-left: 40%;
+}
+
+/* OBSERVATORY  */
+
+.title-observatory > h1 {
+    font-size: 128px;
+}
+
+.title-observatory > h1 > span {
+    font-family: "Sloop";
+    font-size: 130px;
+    padding-right: 30px;
+    margin-left: -12px;
+}
+
+.title-observatory {
+    padding-bottom: 60px;
+}
+
+.gallery > ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery > ul > li {
+    flex: 30%;
+}
+
+.gallery > ul > li > img {
+    width: 100%;
+}
+
+.gallery > ul > li > p {
+    display: flex;
+   padding: 15% 40px;
+   
+}
+   

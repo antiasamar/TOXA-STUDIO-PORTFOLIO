@@ -1,5 +1,9 @@
 COSAS QUE FALTAN: 
 
+## GENERAL:
+
+- RESPONSIVE, MEDIAQUERYS
+
 ## CABECERA: 
 
 - HACER BIEN EL TITULO, MEJOR IMAGEN? COMO HACER QUE SE MANTENGA FIJO Y SE VAYA REDUCIENDO,?
@@ -8,15 +12,12 @@ COSAS QUE FALTAN:
 
 - OVERLAY FOTOS
 
+- enlaces fotos proyectos 
+
+- ajustar paddings con porcentajes (mas responsive)
+
+## BACKGROUND
+- OVERLAY FOTO CABECERA 
 
 
 
-
-<!-- AJUSTES O ABOUT
-/* #previewabout > h1 > span {
-    font-family: "Sloop";
-    font-size: 278px;
-    font-weight: bold;
-    margin-left: -10px;
-    padding-right: 60px;
-} */ -->
