@@ -225,11 +225,44 @@ padding: 400px;
     padding-bottom: 80px; }
 
 #previewabout > div > div > img {
-   height: 700px;}
+   height: 800px;}
 
 .pre-col {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 400PX;
+    align-self: flex-end;
 
+}
+
+/* CONTACT  */
+
+footer > h1 > span {
+    font-family: "Sloop";
+    font-size: 278px;
+    font-weight: bold;
+    padding-right: 60px;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 600px;
+    padding-bottom: 48px;
+   
+}
+
+footer > div > p {
+    align-self: flex-end;
+}
+
+footer > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+footer > div > div > a {
+    text-align: center;
 }
