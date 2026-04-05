@@ -211,16 +211,18 @@ header {
     transition: 0.6s;
 }
 
-.overlay > p {
+.overlay > a > p {
    color: #F5F5F5;
     font-size: 24px;
     font-weight: bold;
+    text-decoration: none;
 }
+
+
 
 .overlay:hover {
     opacity: 100%;
-}
-
+} 
 
 
 
@@ -527,6 +529,24 @@ border: 1px solid #F5F5F5;
 border-radius: 20px;
 justify-content: space-between;
 }
+
+.row-pro > div > a > img {
+    transition: 0.3s ease;
+}
+
+.row-pro > div > a > img:hover {
+    transform: scale(1.05);
+}
+
+.col-pro > div > img {
+    transition: 0.3s ease;
+}
+
+.col-pro > div > img:hover {
+    transform: scale(1.10);
+}
+
+
 
 
 /* EMBULLATS  PROJECT ----------------------------*/
