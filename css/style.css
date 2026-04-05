@@ -496,7 +496,7 @@ justify-content: space-between;
 /* EMBULLATS  PROJECT ----------------------------*/
 
 
-.info-project {
+.close-project {
 padding: 100px 40px 16px 40px;
 display: flex;
 flex-direction: row;
@@ -510,4 +510,64 @@ z-index: 994;
 border-bottom: 1px solid #F5F5F5 ;
 }
 
+.info-project {
+    padding-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.info-project > div {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.info-project > div:first-child {
+    width: 40%;
+    padding-right: 40px;
+    border-right: 1px solid #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap: 223px;
+}
+
+.info-project > div:first-child > div:last-child > p {
+    padding-top: 24px;
+
+}
+/* 
+.info-project > div:first-child > div:last-child{
+    display: flex;
+    flex-direction: column;
+} */
+   
+
+.info-project> div:last-child {
+width: 60%;
+padding-left: 40px;
+border-bottom: 1px solid #F5F5F5;
+display: flex;
+flex-direction: column;
+gap: 60px;
+}
+
+.info-project > div:last-child > img {
+    width: 160px;
+    align-self: flex-end;
+}
+
+/* .info-project> div:last-child > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+} */
+
+.info-project> div:last-child > ul > li > h4 {
+    padding-top: 24px;
+}
+
+.info-project> div:last-child > ul > li > p {
+    padding-top: 12px;
+}
 

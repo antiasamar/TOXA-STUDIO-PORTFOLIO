@@ -20,7 +20,6 @@ COSAS QUE FALTAN:
 - OVERLAY FOTO CABECERA 
 
 ## PROJECTS 
-- arreglar ultima fila, se pega al lado izquierdo de la anterior 
 - linea entre cajas de columnas
 
 
