@@ -172,7 +172,7 @@ header {
 }
 
 .pro-row > div > h4 {
-    border-top: 1px solid #F5F5F5;
+    border-top: 3px solid #F5F5F5;
     padding-top: 12px;
 }
 
@@ -181,7 +181,7 @@ header {
 }
 
 .pro-row > h4 { 
-    border-top: 1px solid #F5F5F5;
+    border-top: 3px solid #F5F5F5;
     padding-top: 12px;
 }
 
@@ -376,13 +376,10 @@ footer > div > div > a {
 /* CABECERA */
 
 .header-projects{
-     padding: 16px 40px 12px 40px;
+     padding: 150px 40px 0px 24px;
 display: flex;
 justify-content: space-between;
 align-items: left;
-position: absolute;
-top: 11%;
-left: 0%;
 width: 100%;
 background-color: #0A0A0A;
 z-index: 998;
@@ -402,13 +399,12 @@ justify-content: left;
 }
 
 .header-projects> h2 {
-    border-bottom: 1px solid #F5F5F5;
+    border-top: 1px solid #F5F5F5;
     width: 100%;
     padding: 24px 40px 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: left;
-    position: absolute;
     top: 224px;
     left: 0%;
     width: 100%;
@@ -419,15 +415,11 @@ justify-content: left;
 
 .projects-gallery {
      width: 100%;
-    padding: 0px 40px;
+    padding: 0px 40px 300px 40px;
     display: flex;
-    position: absolute;
-    top: 420px;
-    left: 0%;
     width: 100%;
     z-index: 996;
     flex-direction: column;
-    /* flex-wrap: wrap; */
 }
 
 .row-pro {
@@ -466,6 +458,7 @@ border-radius: 20px;
 .text-row > p {
     text-align: left;
     padding-top: 24px;
+    align-self: flex-end;
 }
 
 .column-pro {
@@ -485,10 +478,6 @@ border-radius: 20px;
     margin: 40px 0;
 }
 
-/* .category-col {
-    display: flex;
-    justify-content: space-between;
-} */
 
 .category-col {
     display: flex;
@@ -503,12 +492,22 @@ border-radius: 20px;
 justify-content: space-between;
 }
 
-/* .category-col {
-    display: flex;
-    gap: 610px;
-} */
 
-.col-pro > div > img {
-    width: 100%;
-    height: auto;
+/* EMBULLATS  PROJECT ----------------------------*/
+
+
+.info-project {
+padding: 100px 40px 16px 40px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+position: fixed;
+top: 0%;
+left: 0%;
+width: 100%;
+background-color: #0A0A0A;
+z-index: 994;
+border-bottom: 1px solid #F5F5F5 ;
 }
+
+
