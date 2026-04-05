@@ -185,9 +185,45 @@ header {
     padding-top: 12px;
 }
 
-.pro-row > a > img{
-    padding-bottom: 12px;
+.pro-row > div > div {
+    padding: 12px;
+    
 }
+
+/* OVERLAY */
+
+ .pro-row > div > div {
+    position: relative;
+    transition: 0.3s;
+}
+
+.overlay {
+    background-color: rgba(196, 3, 196, 0.628);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.overlay > p {
+   color: #F5F5F5;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.overlay:hover {
+    opacity: 100%;
+}
+
+
+
+
 
 /* FRASE */
 .quote {
