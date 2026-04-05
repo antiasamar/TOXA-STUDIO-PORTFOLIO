@@ -495,6 +495,7 @@ justify-content: space-between;
 
 /* EMBULLATS  PROJECT ----------------------------*/
 
+/* CLOSE PROJECT */
 
 .close-project {
 padding: 100px 40px 16px 40px;
@@ -571,3 +572,84 @@ gap: 60px;
     padding-top: 12px;
 }
 
+/* GALERÍA */
+
+/* #masonry {
+    padding: 40px 0px;
+    box-sizing: inherit;
+}
+
+
+#masonry > ul {
+    list-style: none;
+    display: flex;
+   flex-wrap: wrap;
+    gap: 12px;
+}
+
+#masonry > ul > li {
+    height: 100vh;
+    flex-grow: 1;   
+}
+
+#masonry > ul > li > img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: contain;
+}  */
+
+/* #gallery {
+    padding: 20px 0 80px 0;
+    width: 100%;
+}
+
+#gallery > ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+#gallery > ul > li {
+    flex: 30%;
+} */
+
+
+/* #masonry > ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+#masonry > ul > li {
+    break-inside: avoid;
+    margin-bottom: 16px;
+}
+
+#masonry > ul > li > img {
+    width: 100%;
+    display: block;
+} */
+
+
+
+#masonry > ul {
+  column-count: 3;
+  column-gap: 20px;
+  list-style: none;
+  padding-top: 40px;
+  padding-bottom: 300px;
+}
+
+#masonry > ul > li {
+    break-inside: avoid;
+    margin-bottom: 20px;
+}
+
+#masonry > ul > li > img {
+    width: 100%;
+    display: block;
+}
+#masonry > ul > li > p {
+    padding: 24px;
+}
