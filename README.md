@@ -29,3 +29,11 @@ COSAS QUE FALTAN:
 
 
 
+## PREGUNTAS
+
+- Los títulos entre formatos se rompen.
+- Foto en BEHIND TOXA STUDIO: no puedo centrarla en tablet y movile. 
+- Alineación fila TACORA en PROJECTS. 
+- Las fotos entre formatos desbordan. 
+- Cómo quitar el hover de escala de PROJECTS. 
+- 
