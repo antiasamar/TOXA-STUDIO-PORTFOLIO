@@ -853,8 +853,8 @@ footer > div > div > a {
        padding-right: 22px; 
     }
 
-    .foot-cont {
-
+    #foot-cont > div > p { 
+      align-self: baseline;
     }
 
     /* PROJECTS */
@@ -914,6 +914,134 @@ footer > div > div > a {
         display: inherit;
     }
 
+    /* ABOUT */
+
+    .title-about > h1 > span {
+         font-size: 102px;
+        margin-left: 2px;
+       padding-right: 22px;
+    }
+
+    .title-about {
+        display: flex;
+        justify-content: center;
+    }
+
+    .presentation-about {
+        padding: 0%;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 150px;
+        gap: 150px;
+    }
+
+    .presentation-about > div:first-child {
+        justify-content: center;
+        padding: 0 25%;
+    }
+
+    .presentation-about > div:first-child > img {
+        justify-self: center;
+    }
+
+    .ornament.tresestrellas {
+        width: 400px;
+        height: auto;
+    }
+
+    .title-background {
+        padding-bottom: 120px;
+    }
+
+    .title-background > h1 {
+        font-size: 60px;
+    }
+
+    .title-background > h1 > span {
+        font-size: 64px;
+        margin-right: -8px;
+    }
+
+    .info-about {
+    padding-left: 10%;
+    }
+
+    .info-about > div {
+        padding-bottom: 24px;
+    }
+
+    .info-about> div > p {
+        padding-top: 16px;
+        margin-left: 20%;
+    }
+
+    .info-about> div > h4 {
+        padding-top: 24px;
+        margin-left: 20%;
+    }
+
+    .info-about> div > img {
+        padding-top: 24px;
+        margin-left: 20%;
+    }
+
+    .title-observatory > h1 {
+        font-size: 60px;
+    }
+
+    .title-observatory > h1 > span {
+        font-size: 64px ;
+        margin-right: -12px;
+        padding-left: 6px;
+    }
+
+    #observatory {
+        padding-bottom: 120px;
+    }
+
+    .gallery > ul >li:nth-child(5) {
+        display: none;
+    }
+
+    /* EMBULLATS WINE */
+
+    .info-project {
+        flex-direction: column;
+    }
+
+    .info-project > div:first-child {
+        width: 100%;
+        border-right:0px;
+        gap: 40px;
+        padding-right: 0px;
+    }
+
+    .info-project > div:last-child {
+        width: 100%;
+        gap: 12px;
+        padding-left: 0px;
+    }
+
+    #masonry > ul {
+        column-count: 2;
+        padding-bottom: 120px;
+    }
+
+    #masonry > ul > li:nth-child(2) {
+        display: none;
+    }
+
+    #masonry > ul > li:nth-child(11) {
+        display: none;
+    }
+
+    #masonry > ul > li:nth-child(13) {
+        display: none;
+    }
+
+    .img-change {
+        display: none;
+    }
 
 }
 
@@ -1043,6 +1171,94 @@ footer > div > div > a {
         margin-left: 6px;
        padding-right: 8px;
     }
-    
-}
 
+    .title-about > h1 > span {
+        font-size: 56px;
+        margin-right: -6px;
+    }
+
+    .presentation-about {
+        padding-top: 40px;
+        gap: 60px;
+        padding-bottom: 40px;
+    }
+
+    .presentation-about > div:first-child > img {
+        width: 200px;
+        height: auto;
+    }
+
+    .ornament.tresestrellas {
+        width: 300px;
+        height: auto;
+    }
+
+    .title-background {
+        padding-bottom: 120px;
+    }
+
+    .title-background > h1 {
+        font-size: 48px;
+    }
+
+    .title-background > h1 > span {
+        font-size: 50px;
+        margin-right: -10px;
+    }
+
+    .info-about {
+    padding-left: 0%;
+    }
+
+    .info-about > div {
+        padding-bottom: 24px;
+    }
+
+    .info-about> div > p {
+        padding-top: 16px;
+        margin-left: 10%;
+    }
+
+    .info-about> div > h4 {
+        padding-top: 24px;
+        margin-left: 10%;
+    }
+
+    .info-about> div > img {
+        width: 350px;
+        padding-left: 10%;
+    }
+    #section-background {
+        padding-bottom: 120px;
+    }
+
+    .title-observatory > h1 {
+        font-size: 48px;
+    }
+
+    .title-observatory > h1 > span {
+        font-size: 50px ;
+        margin-right: -16px;
+        padding-left: 6px;
+    }
+
+    #observatory {
+        padding-bottom: 60px;
+    }
+
+    .gallery > ul >li:nth-child(5) {
+        display: none;
+    }
+
+    /* EMBULLATS WINE */
+
+     #masonry > ul {
+        column-count: 1;
+    }
+
+
+    .overlay {
+        display: none;
+    }
+
+}
