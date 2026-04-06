@@ -197,6 +197,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 60px;
+    padding-top: 24px;
 }
 
 .pro-column-wide > :first-child {
@@ -335,7 +336,7 @@ footer > div {
 }
 
 footer > div > p {
-    align-self: flex-end;
+    align-self: baseline;
 }
 
 footer > div > div {
@@ -1138,13 +1139,14 @@ footer > div > div > a {
         gap: 40px;
         padding-top: 300px;
         padding-bottom: 36px;
+        align-items: center;
     }
 
     footer > div > div {
         order: 1;
     }
 
-    footer > div > p {
+    #foot-cont > div > p {
         order: 2;
         align-self: center;
     }

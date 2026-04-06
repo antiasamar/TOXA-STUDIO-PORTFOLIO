@@ -1,6 +1,6 @@
 COSAS QUE FALTAN: 
 
-## GENERAL:
+<!-- ## GENERAL:
 
 - RESPONSIVE, MEDIAQUERYS
 
@@ -24,10 +24,7 @@ COSAS QUE FALTAN:
 ## PROJECTS Y EMBULLATS 
 - linea entre cajas de columnas
 - cambiar border por líneas que rompan el wrapper
-- hacer la linea horizontal d epropjects igual que en embullats 
-
-
-
+- hacer la linea horizontal d epropjects igual que en embullats  -->
 
 
 
