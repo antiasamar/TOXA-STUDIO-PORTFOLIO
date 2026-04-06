@@ -63,6 +63,37 @@ ul {
     letter-spacing: 3px;
 }
 
+hr {
+    height: 1px;
+    margin-left: -80px;
+    margin-right: -80px;
+}
+
+
+.fixed-btn {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+    font-size: larger;
+    border: 2px solid #F5F5F5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0A0A;
+}
+
+.fixed-btn:hover {
+    color: #0A0A0A;
+    background-color: #f5f5f57c;
+    font-weight: bold;
+}
+
+
+
 /* MENÚ  */
 
 nav {
@@ -157,6 +188,9 @@ header {
     flex-wrap: wrap-reverse;
 }
 
+.pro-column-slim {
+    padding-bottom: 120px;
+}
 
 .pro-column-slim > ul {
     display: flex;
@@ -218,22 +252,19 @@ header {
     text-decoration: none;
 }
 
-
-
 .overlay:hover {
     opacity: 100%;
 } 
 
 
-
-
 /* FRASE */
+
 .quote {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-padding: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 400px;
 }
 
 .quote > h5 {
@@ -279,6 +310,10 @@ padding: 400px;
 
 /* CONTACT  */
 
+footer {
+    padding-bottom: 60px;
+}
+
 footer > h1 > span {
     font-family: "Sloop";
     font-size: 278px;
@@ -289,7 +324,7 @@ footer > h1 > span {
 footer > div {
     display: flex;
     justify-content: space-between;
-    padding-top: 600px;
+    padding-top: 550px;
     padding-bottom: 48px;
    
 }
@@ -328,6 +363,24 @@ footer > div > div > a {
     flex-direction: column;
     padding-top: 150px;
     gap: 150px;
+}
+
+.presentation-about > div {
+    position: relative;
+}
+
+.img-change {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.img-change:hover {
+    opacity: 100%;
 }
 
 /* BACKGROUND  */
@@ -414,15 +467,14 @@ footer > div > div > a {
 /* CABECERA */
 
 .header-projects{
-     padding: 150px 40px 0px 24px;
-display: flex;
-justify-content: space-between;
-align-items: left;
-width: 100%;
-background-color: #0A0A0A;
-z-index: 998;
-border-bottom: 1px solid #F5F5F5 ;
-justify-content: left;
+    padding: 150px 40px 0px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 100%;
+    background-color: #0A0A0A;
+    z-index: 998;
+    justify-content: left;
 }
 
 .title-projects > h1 > span {
@@ -437,7 +489,6 @@ justify-content: left;
 }
 
 .header-projects> h2 {
-    border-top: 1px solid #F5F5F5;
     width: 100%;
     padding: 24px 40px 20px 40px;
     display: flex;
@@ -461,13 +512,12 @@ justify-content: left;
 }
 
 .row-pro {
-display: flex;
-gap: 40px;
-border-bottom: 1px solid#F5F5F5;
-padding-bottom: 40px;
-padding-top: 40px;
-flex-wrap: wrap;
-width: 100%;
+    display: flex;
+    gap: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .row-pro > div {
@@ -502,8 +552,7 @@ border-radius: 20px;
 .column-pro {
     display: flex;
     flex-direction: row;
-    gap: 60px;
-    border-bottom: 1px solid #F5F5F5;
+    /* gap: 60px; */
 }
 
 .col-pro {
@@ -513,8 +562,25 @@ border-radius: 20px;
     gap: 24px;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 0;
+    /* margin: 40px 0; */
 }
+
+.col-pro > div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.column-pro> div:first-child {
+    padding: 40px 60px 40px 0;
+    border-right: 1px solid #F5F5F5;
+}
+
+.column-pro > div:last-child {
+    padding: 40px 0 40px 60px ;
+}
+
+
 
 
 .category-col {
@@ -642,3 +708,4 @@ gap: 60px;
     padding: 24px;
     text-align: center;
 }
+
