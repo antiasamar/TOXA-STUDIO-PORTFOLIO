@@ -61,6 +61,7 @@ ul {
     text-transform: capitalize;
     line-height: 0;
     letter-spacing: 3px;
+    padding-left: 3px;
 }
 
 hr {
