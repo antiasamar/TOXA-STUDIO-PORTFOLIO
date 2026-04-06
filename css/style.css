@@ -98,29 +98,29 @@ hr {
 /* MENÚ  */
 
 nav {
-padding: 16px 40px 16px 40px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-position: fixed;
-top: 0%;
-left: 0%;
-width: 100%;
-background-color: #0A0A0A;
-z-index: 999;
-border-bottom: 1px solid #F5F5F5 ;
+    padding: 16px 40px 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #0A0A0A;
+    z-index: 999;
+    border-bottom: 1px solid #F5F5F5 ;
 }
 
 
 .btn-group > a { 
-text-decoration: none;
-font-size: 16px;
-padding: 8px 15px;
-background-color: #0A0A0A; 
-border: 1px solid #F5F5F5; 
-border-radius: 20px; 
-margin-left: 24px;
-transition: 0.3s;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    background-color: #0A0A0A; 
+    border: 1px solid #F5F5F5; 
+    border-radius: 20px; 
+    margin-left: 24px;
+    transition: 0.3s;
 }
 
 .btn-group > a:hover{
@@ -272,6 +272,8 @@ header {
     font-family: "Sloop";
     font-size: 120px;
     font-weight: bold;
+    text-align: center;
+    line-height: 100px;
 }
 
 /* BEHIND TOXA STUDIO */
@@ -540,10 +542,10 @@ footer > div > div > a {
 }
 
 .category > p {
-font-size: 16px;
-padding: 8px 15px;
-border: 1px solid #F5F5F5;
-border-radius: 20px;
+    font-size: 16px;
+    padding: 8px 15px;
+    border: 1px solid #F5F5F5;
+    border-radius: 20px;
 }
 
 .text-row > p {
@@ -613,6 +615,10 @@ border-radius: 20px;
     transform: scale(1.10);
 }
 
+.column-pro > hr {
+    display: none;
+}
+
 
 
 
@@ -665,12 +671,12 @@ border-radius: 20px;
    
 
 .info-project> div:last-child {
-width: 60%;
-padding-left: 40px;
-border-bottom: 1px solid #F5F5F5;
-display: flex;
-flex-direction: column;
-gap: 60px;
+    width: 60%;
+    padding-left: 40px;
+    border-bottom: 1px solid #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 
 .info-project > div:last-child > img {
@@ -731,6 +737,8 @@ gap: 60px;
         font-weight: 900;
         line-height: 80px;
     }
+
+    /* HOME  */
 
     .title-home {
         align-self: center;
@@ -845,10 +853,68 @@ gap: 60px;
        padding-right: 22px; 
     }
 
-    /* footer > div {
-        padding-top: 300px;
-    } */
+    .foot-cont {
+
+    }
+
+    /* PROJECTS */
+
+    .header-projects {
+        padding-top: 120px;
+    }
+
+    .header-projects > div > h1 > span {
+        font-size: 102px;
+        margin-left: 6px;
+       padding-right: 8px;
+    }
+
+    .header-projects > h2 {
+        padding-left: 0;
+    }
+
+    .projects-gallery > .row-pro > div > a > img {
+        width: 700px;
+        height: auto;
+    }
+     
+    .projects-gallery > .row-pro {
+        align-items: center;
+    }
+
+   .text-row > p > br {
+        display: none;
+
+    }
+
+    .row-pro > div:last-child {
+        gap: 60px;
+    }
+
+    .column-pro {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .column-pro > div:first-child {
+       padding: 40px 0 40px 0;
+        border-right: 0px;
+    }
     
+
+    .column-pro > div:last-child {
+        padding: 40px 0 40px 0;
+    }
+
+    .column-pro > div > div > img {
+        width: 400px;
+        height: auto;
+    }
+    .column-pro > hr {
+        display: inherit;
+    }
+
+
 }
 
 
@@ -872,9 +938,11 @@ gap: 60px;
         font-size: 16px;
     }
 
-     header {
+    header {
         padding: 80px 10px 80px 10px;
     }
+
+    /* HOME */
 
     .title-home > span {
         font-size: 56px;
@@ -932,8 +1000,6 @@ gap: 60px;
         height: 400px;
     }
 
-
-
     #foot-cont > h1 > span {
        font-size: 56px;
        padding-right: 12px; 
@@ -955,9 +1021,28 @@ gap: 60px;
         align-self: center;
     }
 
+    /* PROJECTS  */
+
+     .header-projects {
+        padding-top: 100px;
+    }
+
+    .header-projects > div > h1 {
+        padding-bottom: 12px;
+    }
+
+
+    .projects-gallery > .row-pro > div > a > img {
+        width: 350px;
+        height: auto;
+    }
+
+
+    .header-projects > div > h1 > span {
+        font-size: 56px;
+        margin-left: 6px;
+       padding-right: 8px;
+    }
     
-
-
-
 }
 
